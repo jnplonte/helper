@@ -1,11 +1,11 @@
 {
-  "name": "helper",
+  "name": "jnpl-helper",
   "version": "1.0.0",
   "description": "list of basic helper functions for web development",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/**/*.spec.js --timeout 60000 --exit",
-    "test:example": "node example/"
+    "start:example": "node example/"
   },
   "files": [
     "lib"
@@ -16,6 +16,7 @@
   },
   "keywords": [
     "helper",
+    "jnpl",
     "npm",
     "module",
     "node",

@@ -9,11 +9,11 @@
 
 
 ## Installation
-* x
+* install module by running `npm install --save jnpl-helper`
 
 
 ## How to Use
-* x
+* run example by running `npm run start:example`
 
 
 ## Testing
