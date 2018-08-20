@@ -1,0 +1,20 @@
+{
+  "name": "helper",
+  "version": "1.0.0",
+  "description": "list of basic helper functions for web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "john paul onte <jnpl.onte@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "jwt-simple": "^0.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
