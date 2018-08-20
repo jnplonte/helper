@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const chai_1 = require("chai");
-const jnplHelper = require("../lib/helper");
+const helper_1 = require("../lib/helper");
 const config_1 = require("../example/config");
 describe('helper service', () => {
     let services;
     beforeEach((done) => {
-        services = new jnplHelper(config_1.baseConfig);
+        services = new helper_1.jnplHelper(config_1.baseConfig);
         done();
     });
     it('should get the expected json data', (done) => {

@@ -1,6 +1,6 @@
-const jnplHelper = require("../lib/helper");
+const helper = require("../lib/helper");
 const config = require("./config");
 
-const helper = new jnplHelper(config.baseConfig);
+const helpMe = new helper.jnplHelper(config.baseConfig);
 
-console.log('secret hash: ' + helper.secretHash);
+console.log('secret hash: ' + helpMe.secretHash);

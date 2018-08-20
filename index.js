@@ -1,1 +1,3 @@
-module.exports = require('./lib/helper');
+helper = require('./lib/helper');
+
+module.exports = {...helper, 'name': 'jnplHelper'}
