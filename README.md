@@ -1,4 +1,4 @@
-# HELPER FUNCTION
+# HELPER FUNCTIONS
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
 ## Version

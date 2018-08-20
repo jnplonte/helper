@@ -4,9 +4,23 @@
   "description": "list of basic helper functions for web development",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*.spec.js --timeout 60000 --exit",
+    "test:example": "node example/"
   },
-  "keywords": [],
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnplonte/helper.git"
+  },
+  "keywords": [
+    "helper",
+    "npm",
+    "module",
+    "node",
+    "javascript"
+  ],
   "author": "john paul onte <jnpl.onte@gmail.com>",
   "license": "MIT",
   "dependencies": {
