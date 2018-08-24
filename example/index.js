@@ -1,6 +1,5 @@
-const helper = require("../lib/helper");
-const config = require("./config");
+const helper = require("../index");
 
-const helpMe = new helper.jnplHelper(config.baseConfig);
-
-console.log('secret hash: ' + helpMe.secretHash);
+console.log(
+    helper.dateNow, helper.dateTimeNow, helper.dateTimeNowEnd, helper.dateTimeNowStart 
+);
