@@ -27,6 +27,8 @@ const toJson = require('./lib/toJson');
 const toString = require('./lib/toString');
 const urlEncodeObject = require('./lib/urlEncodeObject');
 
+const sum = require('./lib/sum');
+
 module.exports = {
     'camelize': camelize,
     'checkObjectInList': checkObjectInList,
@@ -67,5 +69,9 @@ module.exports = {
     'toJson': toJson,
     'toString': toString,
     'urlEncodeObject': urlEncodeObject,
+
+    'sumArray': sum.sumArray,
+    'sumArrayInList': sum.sumArrayInList,
+
     'name': 'jnpl-helper'
 };

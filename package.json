@@ -26,7 +26,8 @@
   "license": "MIT",
   "dependencies": {
     "crypto-js": "^3.1.9-1",
-    "jwt-simple": "^0.5.1"
+    "jwt-simple": "^0.5.1",
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
     "chai": "^4.1.2",
