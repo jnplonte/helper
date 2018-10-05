@@ -28,6 +28,7 @@ const toString = require('./lib/toString');
 const urlEncodeObject = require('./lib/urlEncodeObject');
 
 const sum = require('./lib/sum');
+const generateCode = require('./lib/generateCode');
 
 module.exports = {
     'camelize': camelize,
@@ -72,6 +73,8 @@ module.exports = {
 
     'sumArray': sum.sumArray,
     'sumArrayInList': sum.sumArrayInList,
+
+    'generateCode': generateCode,
 
     'name': 'jnpl-helper'
 };
