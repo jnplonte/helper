@@ -29,6 +29,7 @@ const urlEncodeObject = require('./lib/urlEncodeObject');
 
 const sum = require('./lib/sum');
 const generateCode = require('./lib/generateCode');
+const cleanDataWithNull = require('./lib/cleanDataWithNull');
 
 module.exports = {
     'camelize': camelize,
@@ -75,6 +76,7 @@ module.exports = {
     'sumArrayInList': sum.sumArrayInList,
 
     'generateCode': generateCode,
+    'cleanDataWithNull': cleanDataWithNull,
 
     'name': 'jnpl-helper'
 };
