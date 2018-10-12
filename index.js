@@ -80,7 +80,7 @@ module.exports = {
     'cleanDataWithNull': cleanDataWithNull,
 
     'setCookie': cookie.setCookie,
-    'readCookie': cookie.readCookie,
+    'getCookie': cookie.getCookie,
     'deleteCookie': cookie.deleteCookie,
 
     'name': 'jnpl-helper'

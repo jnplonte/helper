@@ -13,7 +13,7 @@ describe('cookie', () => {
     });
 
     it('should get cookie', (done) => {
-        chai.expect(cookie.readCookie('test')).to.be.null;
+        chai.expect(cookie.getCookie('test')).to.be.null;
 
         done();
     });
