@@ -1,6 +1,6 @@
 {
   "name": "jnpl-helper",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "list of basic helper functions for web development",
   "main": "index.js",
   "scripts": {
