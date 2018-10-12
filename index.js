@@ -30,6 +30,7 @@ const urlEncodeObject = require('./lib/urlEncodeObject');
 const sum = require('./lib/sum');
 const generateCode = require('./lib/generateCode');
 const cleanDataWithNull = require('./lib/cleanDataWithNull');
+const cookie = require('./lib/cookie');
 
 module.exports = {
     'camelize': camelize,
@@ -77,6 +78,10 @@ module.exports = {
 
     'generateCode': generateCode,
     'cleanDataWithNull': cleanDataWithNull,
+
+    'setCookie': cookie.setCookie,
+    'readCookie': cookie.readCookie,
+    'deleteCookie': cookie.deleteCookie,
 
     'name': 'jnpl-helper'
 };
