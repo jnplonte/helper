@@ -29,13 +29,12 @@ const urlEncodeObject = require('./lib/urlEncodeObject');
 
 const sum = require('./lib/sum');
 const generateCode = require('./lib/generateCode');
-const cleanDataWithNull = require('./lib/cleanDataWithNull');
 const cookie = require('./lib/cookie');
 
 module.exports = {
     'camelize': camelize,
     'checkObjectInList': checkObjectInList,
-    'cleanData': cleanData,
+    'cleanData': cleanData.cleanData,
     'dateNow': date.dateNow(),
     'dateTimeNow': date.dateTimeNow(),
     'dateTimeNowEnd': date.dateTimeNowEnd(),
@@ -77,7 +76,8 @@ module.exports = {
     'sumArrayInList': sum.sumArrayInList,
 
     'generateCode': generateCode,
-    'cleanDataWithNull': cleanDataWithNull,
+    'cleanDataWithNull': cleanData.cleanDataWithNull,
+    'cleanDataRemoveNull': cleanData.cleanDataRemoveNull,
 
     'setCookie': cookie.setCookie,
     'getCookie': cookie.getCookie,
