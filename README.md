@@ -2,7 +2,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
 ## Version
-**v1.5.9**
+**v1.5.10**
 
 ## Dependencies
 * nodejs: [https://nodejs.org/](https://nodejs.org/en/)
