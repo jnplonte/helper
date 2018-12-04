@@ -31,6 +31,8 @@ const sum = require('./lib/sum');
 const generateCode = require('./lib/generateCode');
 const cookie = require('./lib/cookie');
 
+const encodeDecode = require('./lib/encodeDecode');
+
 module.exports = {
     'camelize': camelize,
     'checkObjectInList': checkObjectInList,
@@ -82,6 +84,9 @@ module.exports = {
     'setCookie': cookie.setCookie,
     'getCookie': cookie.getCookie,
     'deleteCookie': cookie.deleteCookie,
+
+    'encode': encodeDecode.encode,
+    'decode': encodeDecode.decode,
 
     'name': 'jnpl-helper'
 };
