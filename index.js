@@ -33,6 +33,8 @@ const cookie = require('./lib/cookie');
 
 const encodeDecode = require('./lib/encodeDecode');
 
+const addHttps = require('./lib/addHttps');
+
 module.exports = {
     'camelize': camelize,
     'checkObjectInList': checkObjectInList,
@@ -87,6 +89,8 @@ module.exports = {
 
     'encode': encodeDecode.encode,
     'decode': encodeDecode.decode,
+
+    'addHttps': addHttps,
 
     'name': 'jnpl-helper'
 };
