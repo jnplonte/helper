@@ -35,6 +35,8 @@ const encodeDecode = require('./lib/encodeDecode');
 
 const addHttps = require('./lib/addHttps');
 
+const colors = require('./lib/colors');
+
 module.exports = {
     'camelize': camelize,
     'checkObjectInList': checkObjectInList,
@@ -91,6 +93,9 @@ module.exports = {
     'decode': encodeDecode.decode,
 
     'addHttps': addHttps,
+
+    'incrementColor': colors.incrementColor,
+    'randomColor': colors.randomColor(),
 
     'name': 'jnpl-helper'
 };
