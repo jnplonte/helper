@@ -7,6 +7,7 @@ const date = require('./lib/date');
 const encodePassword = require('./lib/encodePassword');
 const filterData = require('./lib/filterData');
 const flatObject = require('./lib/flatObject');
+const removeDuplicateArrayObject = require('./lib/removeDuplicateArrayObject');
 const generateRandomString = require('./lib/generateRandomString');
 const isEmail = require('./lib/isEmail');
 const isEmpty = require('./lib/isEmpty');
@@ -53,6 +54,7 @@ module.exports = {
     'encodePassword': encodePassword,
     'filterData': filterData,
     'flatObject': flatObject,
+    'removeDuplicateArrayObject': removeDuplicateArrayObject,
     'generateRandomString': generateRandomString,
     'isEmail': isEmail,
     'isEmpty': isEmpty,
