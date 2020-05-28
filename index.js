@@ -38,6 +38,8 @@ const addHttps = require('./lib/addHttps');
 
 const colors = require('./lib/colors');
 
+const removeNullFromObject = require('./lib/removeNullFromObject');
+
 module.exports = {
     'camelize': camelize,
     'checkObjectInList': checkObjectInList,
@@ -98,6 +100,8 @@ module.exports = {
 
     'incrementColor': colors.incrementColor,
     'randomColor': colors.randomColor(),
+
+    'removeNullFromObject': removeNullFromObject,
 
     'name': 'jnpl-helper'
 };

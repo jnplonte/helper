@@ -1,10 +1,11 @@
 {
   "name": "jnpl-helper",
-  "version": "1.5.16",
+  "version": "1.5.17",
   "description": "list of basic helper functions for web development",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/**/*.spec.js --timeout 60000 --exit",
+    "build": "webpack --config webpack.config.js",
     "start:example": "node example/"
   },
   "files": [
@@ -25,12 +26,16 @@
   "author": "john paul onte <jnpl.onte@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "crypto-js": "^3.1.9-1",
-    "jwt-simple": "^0.5.1",
-    "lodash": "^4.17.10"
+    "crypto-js": "^4.0.0",
+    "jwt-simple": "^0.5.6",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0",
+    "path": "^0.12.7",
+    "terser-webpack-plugin": "^3.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
