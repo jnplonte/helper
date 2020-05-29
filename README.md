@@ -2,14 +2,13 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
 ## Version
-**v1.5.17**
+**v1.5.18**
 
 ## Dependencies
 * nodejs: [https://nodejs.org/](https://nodejs.org/en/)
 
 
 ## Installation
-* include cdn on html `https://unpkg.com/jnpl-helper@1.5.17/dist/helper.js`
 * install module by running `npm install --save jnpl-helper`
 
 
