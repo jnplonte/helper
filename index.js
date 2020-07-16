@@ -39,6 +39,7 @@ const addHttps = require('./lib/addHttps');
 const colors = require('./lib/colors');
 
 const removeNullFromObject = require('./lib/removeNullFromObject');
+const groupBy = require('./lib/groupBy');
 
 module.exports = {
     'camelize': camelize,
@@ -102,6 +103,7 @@ module.exports = {
     'randomColor': colors.randomColor(),
 
     'removeNullFromObject': removeNullFromObject,
+    'groupBy': groupBy,
 
     'name': 'jnpl-helper'
 };
