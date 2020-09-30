@@ -4,6 +4,7 @@ const camelize = require('./lib/camelize');
 const checkObjectInList = require('./lib/checkObjectInList');
 const cleanData = require('./lib/cleanData');
 const date = require('./lib/date');
+const time = require('./lib/time');
 const encodePassword = require('./lib/encodePassword');
 const filterData = require('./lib/filterData');
 const flatObject = require('./lib/flatObject');
@@ -54,6 +55,8 @@ module.exports = {
     'parseDateTime': date.parseDateTime,
     'parseDate': date.parseDate,
     'getWeekDate': date.getWeekDate,
+    'timeNow': time.timeNow(),
+    'timeDiffirence': time.timeDiffirence,
     'encodePassword': encodePassword,
     'filterData': filterData,
     'flatObject': flatObject,

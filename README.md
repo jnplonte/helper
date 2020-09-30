@@ -2,7 +2,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
 ## Version
-**v1.5.19**
+**v1.5.20**
 
 ## Dependencies
 * nodejs: [https://nodejs.org/](https://nodejs.org/en/)
@@ -18,3 +18,7 @@
 
 ## Testing
 * start all test by running `npm run test`
+
+
+## Publish
+* rebuild and publish app to npm `npm publish`

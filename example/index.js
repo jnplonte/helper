@@ -1,22 +1,8 @@
 const helper = require("../index");
 
 const data =  [
-    {
-        "SalesTable": {
-            "Estate": {
-                "RecId": 1,
-                "EstateName": "dsad 1"
-            }
-        }
-    },
-    {
-        "SalesTable": {
-            "Estate": {
-                "RecId": 1,
-                "EstateName": "dsad 1"
-            }
-        }
-    }
+    {'test': 'super', 'xxx': 'one'}, {'test': 'script', 'zzz': 'two'}
 ];
-const x = helper.filterData(data, ["SalesTable.Estate"])
+
+const x = helper.filterData(data, ["test"])
 console.log(JSON.stringify(x));
